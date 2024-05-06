@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    height: 100vh;   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}       
+ 
+.child{
+    width: 20%;
+    height: 200px;
+    background-color: red;
+    border: 1px solid black;
+}
